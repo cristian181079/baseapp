@@ -20,4 +20,11 @@ window.env = {
     balancesFetchInterval: '3000',
     passwordEntropyStep: 14,
     showLanding: true,
+    kycSteps: [
+        'email',
+        'phone',
+        'profile',
+        'document',
+        'address',
+    ],
 };
